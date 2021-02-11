@@ -1,0 +1,39 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100vh;
+}
+
+body * {
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.editor__btn-edit,
+.editor__btn-save {
+  margin-right: 15px;
+}
+
+.editor__textarea {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 2px solid lightgrey;
+  width: 397px;
+  height: 300px;
+  overflow: auto;
+}
+
+.editor__textarea_active {
+  border-color: black;
+}
+
+.editor__versions {
+  margin-top: 20px;
+}
+
+.editor__versions select {
+  margin-top: 10px;
+  width: 100%;
+}
